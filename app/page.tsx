@@ -1,15 +1,21 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Feature from "@/components/Feature";
-import FAQ from "@/components/FAQ";
+// import Gallery from '@/components/Gallery';
+import Footer from "@/components/Footer";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
-    <main>
+    <div>
       <Navbar />
-      <Hero />
-      <Feature />
-      <FAQ />
-    </main>
+      <main>
+        <Hero />
+        <Feature />
+        <FAQ />
+        {/* <Gallery /> */}
+      </main>
+      <Footer />
+    </div>
   );
 }
