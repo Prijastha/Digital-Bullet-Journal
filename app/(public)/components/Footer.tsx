@@ -7,15 +7,7 @@ export default function Footer() {
           &copy; {new Date().getFullYear()}Digital Bullet Journal. All rights reserved.
         </p>
 
-        {/* Middle Section: Quick Links */}
-        <div className="space-x-6 mt-3 md:mt-0">
-          <a href="#features" className="text-gray-600 hover:text-blue-600">
-            Features
-          </a>
-          <a href="#faq" className="text-gray-600 hover:text-blue-600">
-            FAQ
-          </a>
-        </div>
+        
 
         {/* Right Section: Social Icons */}
         <div className="flex space-x-4 mt-3 md:mt-0">

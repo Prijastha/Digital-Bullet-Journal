@@ -1,17 +1,17 @@
 "use client";
 import React from "react";
-import { ContainerScroll } from "../../components/ui/container-scroll-animation";
+import { ContainerScroll } from "../../../components/ui/container-scroll-animation";
 import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="h-screen  mt-80 flex flex-col justify-center items-center text-center px-6">
+      <div className="h-screen  mt-60 flex flex-col justify-center items-center text-center px-6">
         <ContainerScroll
           titleComponent={
             <>
               <h1 className="text-5xl font-semibold text-black dark:text-white mb-4">
                 Organize Your Life <br />
-                <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
+                <span className="text-4xl md:text-[6rem] font-bold mt-1 mb-3 leading-none">
                   Digitally
                 </span>
               </h1>
